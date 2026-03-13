@@ -75,8 +75,7 @@ python mc-qad.py --dataset imdb --model bert --bias_category ethnicity
 | `--dataset`               | yes      | —            | Dataset to use: `imdb`, `yelp`                                                                      |
 | `--model`                 | yes      | —            | Base model architecture: `bert`, `roberta`                                                          |
 | `--bias_category`         | yes      | —            | Bias category to evaluate: `age`, `disability`, `ethnicity`, `gender`, `religion`, `sexual_orientation`, `all`. Use `all` for the full test set |
-| `--bitwidth_choices`      | no       | `4 8 16 32`  | Candidate bitwidths for quantization
-|
+| `--bitwidth_choices`      | no       | `4 8 16 32`  | Candidate bitwidths for quantization                                                                |
 | `--lr_model`              | no       | `1e-6`       | Learning rate for model parameters                                                                  |
 | `--lr_alloc`              | no       | `1e-3`       | Learning rate for precision allocation                                                              |
 | `--lr_lambda`             | no       | `1e-2`       | Learning rate for Lagrangian multiplier                                                             |
