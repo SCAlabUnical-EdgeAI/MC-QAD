@@ -105,7 +105,7 @@ python generate_dataset.py --dataset imdb --templates_per_pair 15 --calibration_
 # Step 2 - Run MC-QAD
 python mc-qad.py \
   --dataset imdb \
-  --model roberta \
+  --model bert \
   --bias_category gender \
   --bitwidth_choices 4 8 16 32\
   --lr_model 1e-6 \
