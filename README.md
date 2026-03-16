@@ -1,6 +1,6 @@
 # MC-QAD — Memory-Constrained Quantization-Aware Debiasing
 
-MC-QAD (Memory-Constrained Quantization-Aware Debiasing) is a unified framework that jointly compresses and debiases language models by optimizing both model weights and a mixed-precision bit allocation policy under a strict memory budget.  
+**MC-QAD** (*Memory-Constrained Quantization-Aware Debiasing*) is a unified framework that jointly compresses and debiases language models by optimizing both model weights and a mixed-precision bit-width allocation policy under a given memory budget.  
 
 Currently, the framework supports BERT and RoBERTa models, evaluated on the movie review (IMDb) and restaurant review (Yelp) domains.
 
