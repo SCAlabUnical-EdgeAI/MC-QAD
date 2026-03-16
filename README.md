@@ -10,7 +10,7 @@ Currently, the framework supports BERT and RoBERTa models, evaluated on the movi
 
 Install the required dependencies:
 ```bash
-pip install torch transformers datasets scikit-learn numpy pandas
+pip install -r requirements.txt
 ```
 
 ---
