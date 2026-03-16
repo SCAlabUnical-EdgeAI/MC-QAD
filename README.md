@@ -20,9 +20,10 @@ pip install -r requirements.txt
 .
 ├── mc-qad.py               # Main script: trains and evaluates MC-QAD
 ├── utils.py                # Utility functions (metrics, data loading)
-├── generate_dataset.py     # Generates counterfactual bias datasets
+├── generate_dataset.py     # Generates counterfactual datasets
 ├── imdb_templates.txt      # Sentence templates for IMDb
-└── yelp_templates.txt      # Sentence templates for Yelp
+├── yelp_templates.txt      # Sentence templates for Yelp
+└── requirements.txt        # Requirements file
 ```
 
 ---
