@@ -32,8 +32,7 @@ pip install torch transformers datasets scikit-learn numpy pandas
 Before running MC-QAD, you need to generate the counterfactual datasets for the target domain.  
 This script reads sentence templates and generates a calibration set and a test set, then filters the latter by bias category.
 ```bash
-python generate_dataset.py --dataset imdb
-python generate_dataset.py --dataset yelp
+python generate_dataset.py --dataset [DATASET_NAME]
 ```
 
 This creates a directory named `imdb/` (or `yelp/`) with the following files:
@@ -65,7 +64,7 @@ The `yelp/` directory mirrors the same structure.
 
 Once the datasets are generated, you can train and evaluate the MC-QAD method.
 ```bash
-python mc-qad.py --dataset imdb --model bert --bias_category ethnicity
+python mc-qad.py --dataset [DATASET_NAME] --model [MODEL_NAME] --bias_category [CATEGORY_NAME]
 ```
 
 ### Parameters
