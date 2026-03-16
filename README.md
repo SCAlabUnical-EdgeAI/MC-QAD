@@ -100,7 +100,7 @@ python mc-qad.py --dataset imdb --model bert --bias_category age
 **Full run with custom parameters:**
 ```bash
 # Step 1 - Generate the datasets
-python generate_dataset.py --dataset imdb --templates_per_pair 20 --calibration_ratio 0.6
+python generate_dataset.py --dataset imdb --templates_per_pair 15 --calibration_ratio 0.5
 
 # Step 2 - Run MC-QAD
 python mc-qad.py \
